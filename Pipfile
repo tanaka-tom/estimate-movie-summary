@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+google-cloud-storage = "==1.13.0"
+gensim = "==3.6.0"
+Flask = "==1.0.2"
+gunicorn = "==19.9.0"
+
+[dev-packages]
+pylint = "<2.0.0"
+autopep8 = "*"
+
+[requires]
+python_version = "2.7"
